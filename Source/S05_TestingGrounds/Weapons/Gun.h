@@ -36,6 +36,7 @@ public:
 	class UAnimInstance* AnimInstance;
 
 public:
+	UFUNCTION(BlueprintCallable,Category="Input")
 	void OnFire();
 private:
 	/** Location on gun mesh where projectiles should spawn. */
